@@ -19,4 +19,9 @@
 
     <gap:platform name="ios" />
     <gap:platform name="android" />
+    
+    <preference name="phonegap-version" value="3.4.0" />
+    <preference name="orientation" value="portrait" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="webviewbounce" value="false" />
 </widget>
