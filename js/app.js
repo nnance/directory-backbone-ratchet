@@ -21,6 +21,7 @@ document.addEventListener('deviceready', function() {
   alert('device ready');
   alert('device version: ' + window.device.version);
     if (window.device.version.indexOf('7.') === 0) {
+      alert('device is ios 7');
           document.body.style.marginTop = "20px";
     }
 }, false);
