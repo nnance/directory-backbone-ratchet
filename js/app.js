@@ -16,3 +16,9 @@ $(document).on("ready", function () {
             Backbone.history.start();
         });
 });
+
+document.addEventListener('deviceready', function() {
+    if (parseFloat(window.device.version) === 7.0) {
+          document.body.style.marginTop = "20px";
+    }
+}, false);
