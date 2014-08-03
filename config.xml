@@ -25,5 +25,6 @@
     <preference name="prerendered-icon" value="true" />
     <preference name="webviewbounce" value="false" />
 
+    <gap:plugin name="org.apache.cordova.device" version="0.2.8" />
     <!-- <gap:plugin name="com.phonegap.plugin.statusbar" /> -->
 </widget>
