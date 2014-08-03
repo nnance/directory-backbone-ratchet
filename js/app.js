@@ -20,7 +20,7 @@ $(document).on("ready", function () {
 document.addEventListener('deviceready', function() {
   alert('device ready');
   alert('device version: ' + window.device.version);
-    if (parseFloat(window.device.version) === 7.0) {
+    if (window.device.version.indexOf('7.') === 0) {
           document.body.style.marginTop = "20px";
     }
 }, false);
