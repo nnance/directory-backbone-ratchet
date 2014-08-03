@@ -25,5 +25,5 @@
     <preference name="prerendered-icon" value="true" />
     <preference name="webviewbounce" value="false" />
 
-    <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <!-- <gap:plugin name="com.phonegap.plugin.statusbar" /> -->
 </widget>
