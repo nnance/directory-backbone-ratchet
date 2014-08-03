@@ -19,6 +19,6 @@ $(document).on("ready", function () {
 
 document.addEventListener('deviceready', function() {
     if (window.device.version.indexOf('7.') === 0) {
-      document.body.style.marginTop = "200px";
+      document.body.style.marginTop = "20px";
     }
 }, false);
