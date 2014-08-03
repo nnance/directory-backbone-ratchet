@@ -1,0 +1,28 @@
+{
+  "name": "directory-backbone-ratchet",
+  "version": "0.0.2",
+  "description": "Sample Mobile Backbone App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nnance/directory-backbone-ratchet.git"
+  },
+  "keywords": [
+    "Backbone",
+    "Mobile"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nnance/directory-backbone-ratchet/issues"
+  },
+  "homepage": "https://github.com/nnance/directory-backbone-ratchet",
+  "dependencies": {
+    "connect": "^3.1.0",
+    "serve-static": "^1.4.3"
+  }
+}

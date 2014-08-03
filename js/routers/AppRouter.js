@@ -1,10 +1,11 @@
 app.routers.AppRouter = Backbone.Router.extend({
 
     routes: {
-        "":                         "home",
-        "employees/:id":            "employeeDetails",
-        "employees/:id/reports":    "reports",
-        "employees/:id/map":        "map"
+        "":                        "home",
+        "employees/:id":           "employeeDetails",
+        "employees/:id/reports":   "reports",
+        "employees/:id/map":       "map",
+        "add":                     "addEmployee"
     },
 
     initialize: function () {
@@ -47,6 +48,10 @@ app.routers.AppRouter = Backbone.Router.extend({
 
     map: function (id) {
         app.slider.slidePage(new app.views.MapView().render().$el);
+    },
+
+    addEmployee: function() {
+      app.slider.slidePage(new app.views.AddView().render().$el);
     }
 
 });

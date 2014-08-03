@@ -3,7 +3,7 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.unbornconcepts.directory-backbone-rachet"
         versionCode = "10"
-        version     = "0.0.1" >
+        version     = "0.0.2" >
 
     <!-- versionCode is optional and Android only -->
 
@@ -14,16 +14,16 @@
     </description>
 
     <author href="https://http://coenraets.org/" email="support@ccoenraets.org">
-        Christophe Coenraets 
+        Christophe Coenraets
     </author>
 
     <gap:platform name="ios" />
     <gap:platform name="android" />
-    
+
     <preference name="phonegap-version" value="3.4.0" />
     <preference name="orientation" value="portrait" />
     <preference name="prerendered-icon" value="true" />
     <preference name="webviewbounce" value="false" />
-    
+
     <gap:plugin name="com.phonegap.plugin.statusbar" />
 </widget>
